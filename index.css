@@ -13,7 +13,7 @@ body{
     z-index: -1;
 }
 /*...... top menu.........................*/
-#logo{
+.logo{
     padding: 16px;
     padding-left: 0px;
     font-size: 24px;
@@ -36,6 +36,7 @@ nav a{
 header #contactbtn{
     margin-top: 24px;
 }
+
 header ul{
     list-style-type: none;
     display: flex;
@@ -60,6 +61,11 @@ header #contactbtn a{
     border-radius: 4px;
     font-size: 12px;
 }
+header #contactbtn a:hover{
+    background-color:#006953;
+    border: solid 1px #fff;
+    color: #fff;
+}
 /*......... top menu........................*/
 /*......... hero section........................*/
 main{
@@ -77,21 +83,38 @@ main p{
     margin-bottom: 56px;
     max-width: 446px;
 }
-main a {
+#btn2-hero {
     text-decoration: none;
-    padding: 8px 16px;
-    background-color:#006953 ;
-    color: #fff;
+    padding: 16px 32px;
+    background-color:#fff ;
+    border:solid 2px #006953;
+    color: #006953;
     border-radius: 4px;
     font-size: 16px;
+}
+#btn2-hero:hover{
+    background-color:#798c88;
+    color: #fff;
+    border:solid 2px #fff;
+}
+#btn1-hero:hover{
+    background-color:#798c88;
+    color: #fff;
+   
 }
 .hero-buttons{
     display: flex;
     flex-direction: row;
    
 }
- #btn1{
+ #btn1-hero{
     margin-right: 32px;
+    text-decoration: none;
+    padding: 16px 32px;
+    background-color:#006953 ;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
 }
 main .content{
     display: flex;
@@ -103,11 +126,8 @@ main .content{
     font-size: 40px;
     line-height: 1.2;
 }
-section #hero-img{
-   
+ 
 /*background-color: aqua;*/
-
-}
  #hero-img img{
    padding-top: 16px;
    height: 549px;
@@ -121,8 +141,13 @@ section #hero-img{
     height: 288px;
     background-color: #fff;
 }
+#tools img:hover{
+   transform: scale(1.2);
+   transition: 0.5s;
+}
 #tools img{
    padding:  16px;
+
  
 }
 /*.... end hero .................*/
@@ -199,9 +224,81 @@ section #hero-img{
     left: -40px;
 }
 /*..end skills & experience .......... .........................*/
+/* start projects .............................................*/
 #Projects{
     margin: 104px 160px;
+    
+    justify-content: space-between; 
+  /*  background-color: bisque; */
+}
+#row1{
+    margin-top: 56px;
+  /*  background-color: aqua;*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
+    justify-content: space-between;
+}
+#row2{
+    margin-top: 56px;
+   /* background-color:aquamarine;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .projects-cell{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: start;
+}
+.projects-cell p{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.btn-projects{
+    margin-top: 40px;
+background-color: #006953;
+padding: 8px 16px;
+border-radius: 4px;
+color: #fff;
+text-decoration: none;
+margin-top: 40px;
+}
+/* end projects ................................ */
+/*  start footer ..........................................*/
+footer{
+    background-color: #E3CAA8;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#footer-row1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   /* background-color: aqua;*/
+    margin: 16px 160px;
+   
+}
+#footer-row2{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+   /* background-color: brown;*/
+    margin: 16px 160px;
+    border-top: solid 1px rgb(57, 114, 78);
+    
+}
+ #slogan{
+    font-size: 40px;
+    max-width: 600px;
+}
+#slogan span{
+    color: #006953;
+}
+#footer-tools div{
+    
+}
+.footer-info{
+  padding-top: 16px;
 }
