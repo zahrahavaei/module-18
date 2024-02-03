@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#background{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+/*...... top menu.........................*/
+#logo{
+    padding: 16px;
+    padding-left: 0px;
+    font-size: 24px;
+    color: #006953;
+   /* background-color: chocolate;*/
+    margin-right: 256px;
+}
+nav{
+    margin: 0px 160px;
+   /* background-color:bisque;*/
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+header #contactbtn{
+    margin-top: 24px;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+   justify-content:space-around;
+  /*background-color: aquamarine;*/
+    padding: 16;
+}
+header li{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-right: 32px;
+}
+header li:hover{
+    border-bottom: solid 4px #fff;
+}
+header #contactbtn a{
+    background-color: #fff;
+    color: #006953;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+/*......... top menu........................*/
+/*......... hero section........................*/
+main{
+    margin-top: 104px;
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*background-color: aquamarine;*/
+
+}
+main p{
+    margin-top: 56px;
+    margin-bottom: 56px;
+    max-width: 446px;
+}
+main a {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color:#006953 ;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.hero-buttons{
+    display: flex;
+    flex-direction: row;
+   
+}
+ #btn1{
+    margin-right: 32px;
+}
+main .content{
+    display: flex;
+    flex-direction: column;
+    
+  /*  background-color: antiquewhite;*/
+}
+.content h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+section #hero-img{
+   
+/*background-color: aqua;*/
+
+}
+ #hero-img img{
+   padding-top: 16px;
+   height: 549px;
+}
+ 
+#tools{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+    border-radius: 4px;
+    height: 288px;
+    background-color: #fff;
+}
+#tools img{
+   padding:  16px;
+ 
+}
+/*.... end hero .................*/
+/*....start what i do ........... */
+#squre1{
+    position: absolute ;
+    top:750px;
+    left: 0px;
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+ #what-i-do-sec1{
+    margin: 104px 160px;
+    /*background-color: blanchedalmond;*/
+
+}
+.title1{
+    font-size: 40px;
+}
+ #what-i-do-sec2{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .what-i-do-cart{
+    padding: 16px 32px;
+    border-radius: 4px;
+   
+    border:solid 1px #90aaa4;
+}
+.what-i-do-cart h1{
+    margin-top: 24px;
+}
+.what-i-do-p{
+   width: 280px;
+   margin-top:16px;
+}
+.what-i-do-cart:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out ;
+    border-color: #006953;
+    box-shadow: 1px 1px 1px 1px rgb(rgb(53, 77, 69), green, blue);
+}
+/*..end  what i do .......... .........................*/
+/*..start skills & experience .......... .........................*/
+#squre2{
+    position: absolute;
+    top:1200px;
+    right: 0px;
+    opacity: 0.5;
+    transform: scale(0.7);
+}
+#skills{
+   /* background-color: antiquewhite;*/
+    margin: 104px 160px;
+}
+#skills2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.img-skills:hover{
+ opacity: 0.7;
+ transform: scale(1.1);
+}
+/*transform: rotate(15deg);*/
+#squre3{
+    transform: scale(0.7);
+    position: absolute;
+    top:1600px;
+    opacity: 0.5;
+    left: -40px;
+}
+/*..end skills & experience .......... .........................*/
+#Projects{
+    margin: 104px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
